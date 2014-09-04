@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1409802400 source:/home/lucas/Projetos/RedesI/Servidor/Servidor/main.cpp
+	<iostream>
+	"Matriz.h"
+	<cstring>
+	<stdio.h>
+	<stdlib.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<sys/types.h>
+	<cerrno>
+
+1409776323 /home/lucas/Projetos/RedesI/Servidor/Servidor/include/Matriz.h
+	<iostream>
+
+1409774125 source:/home/lucas/Projetos/RedesI/Servidor/Servidor/src/Matriz.cpp
+	<iostream>
+	"Matriz.h"
+

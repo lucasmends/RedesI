@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1409802482 source:/home/lucas/Projetos/RedesI/Cliente/main.cpp
+	<iostream>
+	<stdio.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<netinet/in.h>
+	<string>
+
