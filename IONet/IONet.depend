@@ -1,0 +1,42 @@
+# depslib dependency file v1.0
+1412470820 source:/home/lucas/Projetos/RedesI/IONet/main.c
+
+1412476721 source:/home/lucas/Projetos/RedesI/IONet/src/ServerSocket.cpp
+	"ServerSocket.h"
+	"Socket.h"
+	"NetUtils.h"
+	<sys/socket.h>
+
+1412473926 /home/lucas/Projetos/RedesI/IONet/include/ServerSocket.h
+	"Socket.h"
+	<sys/socket.h>
+	<unistd.h>
+	<netinet/in.h>
+	<cstring>
+
+1412476348 /home/lucas/Projetos/RedesI/IONet/include/Socket.h
+	<unistd.h>
+	"NetUtils.h"
+
+1412474416 source:/home/lucas/Projetos/RedesI/IONet/src/Socket.cpp
+	"Socket.h"
+
+1412477921 source:/home/lucas/Projetos/RedesI/IONet/src/InStream.cpp
+	"InStream.h"
+
+1412477885 /home/lucas/Projetos/RedesI/IONet/include/InStream.h
+	"Socket.h"
+	<string>
+
+1412477991 source:/home/lucas/Projetos/RedesI/IONet/src/OutStream.cpp
+	"OutStream.h"
+	<sys/socket.h>
+	"Socket.h"
+
+1412477529 /home/lucas/Projetos/RedesI/IONet/include/OutStream.h
+	"Socket.h"
+	<string>
+
+1412477452 /home/lucas/Projetos/RedesI/IONet/include/NetUtils.h
+	<netinet/in.h>
+
